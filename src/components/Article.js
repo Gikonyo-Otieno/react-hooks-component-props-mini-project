@@ -17,7 +17,7 @@ function App() {
       <Header blog={blogData.name} />
       <About image={blogData.image} about={blogData.about} />
       <ArticleList posts={blogData.posts} />
-      <Review date={blogData.date} />
+      <DecadeReview date={blogData.date} />
     </div>
   );
 }
